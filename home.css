@@ -25,12 +25,10 @@ body{
     padding: 0.5rem;
 }
 
-.header{
+
+.header-content{
     max-width: 1280px;
     margin:0 auto;
-}
-.header-content{
-    
     display: flex;
     justify-content:space-between;
     align-items: center;
