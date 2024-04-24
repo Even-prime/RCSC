@@ -284,6 +284,125 @@ transform: translateY(0);
 }
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
 
+.headline{
+    
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    font-family: "Alegreya", serif;
+    font-weight: bold;
+}
+
+.objective_section{
+    max-width: 1280px;
+    margin:0 auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0;
+    margin-top: 2rem;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+
+
+}
+.main_objective_section{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    padding-bottom: 2rem;
+}
+
+.objective_image{
+    height: 16vh;
+    width: 16vh;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.para{
+    font-size: 1.5rem;
+    color:white;
+    font-family: "Indie Flower", cursive;
+}
+
+.our_objectives{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f83f8;
+    padding: 2rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    height: 25vh;
+    width: 22vh;
+
+}
+
+.our_objectives:nth-child(1)
+{
+    background-color: #4a90e2;
+}
+
+.our_objectives:nth-child(2){
+    background-color: #ff6289;
+}
+.our_objectives:nth-child(3){
+    background-color: #fcbf58;
+}
+.our_objectives:nth-child(4){
+    background-color: #44bfc3;
+}
+
+
+
+
+@media screen and (max-width:900px){
+    .main_objective_section{
+       display: flex;
+       flex-direction: column;
+       margin: 0 2rem; 
+       gap: 1rem;
+       
+    }
+    .headline{
+    
+        font-size: 1.75rem;
+        padding: 1.5rem;
+        font-family: "Alegreya", serif;
+        font-weight: bold;
+    }
+
+    .our_objectives{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.05rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        gap: .5rem;
+        transition: transform 0.3s ease , box-shadow 0.3s ease;
+        height: 18vh;
+        width: 17vh;
+    
+    }
+    .objective_image{
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    
+.para{
+    font-size: 1.2rem;
+    color:white;
+}
+    }
+
+
 
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
 .join{
