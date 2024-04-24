@@ -286,8 +286,11 @@ transform: translateY(0);
     border-radius: 1.2rem;
     overflow: hidden;
     box-shadow: 0px 0px 4px #f4aabda5;
-    height: 40vh;
+    height: 30vh;
     
+}
+.section-title{
+    padding-bottom:1rem;
 }
     
 }
