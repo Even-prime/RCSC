@@ -284,6 +284,7 @@ transform: translateX(0);
     max-width: 1280px;
     height: auto;
     margin:0 auto;
+    margin-left: 1rem;
     align-items: center;
     justify-content: space-evenly;
     display: flex;
