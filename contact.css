@@ -156,7 +156,10 @@ body{
     margin-top: 20px;
  }
   
-
+ .nav2 .sidebar li:nth-child(6) a {
+    text-decoration: none; /* Remove default underline */
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+}
   
 
 
